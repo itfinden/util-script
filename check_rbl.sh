@@ -9,14 +9,14 @@
 # will strip multiple white spaces.
 
 BLISTS="
-    dnsbl.httpbl.org
-    cbl.abuseat.org
-    dnsbl.sorbs.net
-    bl.spamcop.net
-    zen.spamhaus.org
-    combined.njabl.org
-    bl.score.senderscore.com
-    bl.mailspike.net
+	dnsbl.httpbl.org
+	cbl.abuseat.org
+	dnsbl.sorbs.net
+	bl.spamcop.net
+	zen.spamhaus.org
+	combined.njabl.org
+	bl.score.senderscore.com
+	bl.mailspike.net
 	bl.spameatingmonkey.net
 	b.barracudacentral.org
 	bl.deadbeef.com
