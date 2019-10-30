@@ -1,14 +1,11 @@
-dig +short unix.stackexchange.com
-
-
-
-sh check_rbl.sh 201.217.242.79 2>&1 | tee output.txt | mail -s "Email subject" cm@itfinden.com
 
 #!/bin/sh
 #
 # Check if an IP address is listed on one of the 
 # following blacklists. The format is chosen to 
 # make it easy to add or delete. The shell script
+# dig +short unix.stackexchange.com
+# sh check_rbl.sh 201.217.242.79 2>&1 | tee output.txt | mail -s "Email subject" cm@itfinden.combined
 # will strip multiple white spaces.
 
 BLISTS="
@@ -122,6 +119,8 @@ sed -ne "s~^\([0-9]\{1,3\}\)\.\([0-9]\{1,3\}\)\.\([0-9]\{1,3\}\)\.\([0-9]\{1,3\}
 if [ "x${reverse}" = "x" ] ; then
       ERROR  "IMHO '$1' doesn't look like a valid IP address"
       exit 1
+else
+	  ERROR "estamos todos bien"
 fi
 
 # Assuming an IP address of 11.22.33.44 as parameter or argument
