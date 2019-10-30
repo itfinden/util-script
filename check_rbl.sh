@@ -123,6 +123,7 @@ else
 	  ERROR "estamos todos bien"
 fi
 
+
 # Assuming an IP address of 11.22.33.44 as parameter or argument
 # If the IP address in $0 passes our crude regular expression
 # check, the variable  ${reverse} will contain 44.33.22.11
