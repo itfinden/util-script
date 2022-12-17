@@ -1,4 +1,5 @@
 #!/bin/bash
+###############################
     
 GROUP_ID=<group_id>
 BOT_TOKEN=<bot_token>
